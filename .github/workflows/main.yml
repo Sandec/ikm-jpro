@@ -28,3 +28,7 @@ jobs:
       - name: compile
         run: |
           mvn compile
+
+      - name: install
+        run: |
+          mvn clean install
