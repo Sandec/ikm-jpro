@@ -27,5 +27,4 @@ jobs:
 
       - name: compile
         run: |
-          sed -i "s|CURRENTFOLDER|$(pwd)|g" pom.xml
           mvn compile
